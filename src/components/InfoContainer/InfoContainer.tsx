@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const InfoContainer = styled.div`
   position: absolute;
-  width: 90%;
   top: calc(250px - 90px);
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@ export const InfoContainer = styled.div`
   padding: 20px;
   z-index: 9999;
 
-  @media (min-width: 775px) {
+  @media (min-width: 995px) {
     top: calc(250px - 60px);
     flex-direction: row;
     width: auto;

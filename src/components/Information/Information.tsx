@@ -15,7 +15,7 @@ const InformationStyled = styled.div`
   align-items: center;
 
   @media (min-width: 775px) {
-    width: 150px;
+    width: 170px;
     align-items: flex-start;
   }
 `;
