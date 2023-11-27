@@ -9,7 +9,7 @@ export const GeoMap = () => {
   const context = useContext(TrackerContext);
 
   const Render = useCallback(() => {
-    const position = [
+    const position: [number, number] = [
       context?.tracker?.location?.lat || 0,
       context?.tracker?.location?.lng || 0,
     ];
