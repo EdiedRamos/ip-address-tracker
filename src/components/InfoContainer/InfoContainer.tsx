@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
   z-index: 9999;
 
   @media (min-width: 995px) {
-    top: calc(250px - 60px);
+    top: calc(250px - 70px);
     flex-direction: row;
     width: auto;
   }
