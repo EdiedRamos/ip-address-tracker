@@ -9,7 +9,7 @@ type Props = {
 export const SearchButton = ({ onClick }: Props) => {
   return (
     <Button onClick={onClick}>
-      <img src={ArrowIcon} width="10px" />
+      <img src={ArrowIcon} width="10px" alt="right arrow icon" />
     </Button>
   );
 };
