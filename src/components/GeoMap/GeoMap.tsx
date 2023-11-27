@@ -28,7 +28,7 @@ export const GeoMap = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position} icon={customIcon}>
-          <Popup>Your IP location</Popup>
+          <Popup>IP location</Popup>
         </Marker>
       </MapContainer>
     );
