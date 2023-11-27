@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import type { MouseEventHandler, ChangeEventHandler } from "react";
 
 import { Geo } from "../../services/api";
@@ -29,6 +29,10 @@ export const useSearch = () => {
     setInputError(false);
     context?.setIp(event.target.value);
   };
+
+  useEffect(() => {
+    makeRequest("");
+  }, []);
 
   return {
     handleSubmit,
